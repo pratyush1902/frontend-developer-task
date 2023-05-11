@@ -36,7 +36,7 @@ function Home() {
                     </div>
                     <h5>How are you feeling today?</h5>
                 </div>
-                <button className='HomeButton' onClick= { {openModal}}
+                <button className='HomeButton' onClick= { openModal}
           >Post</button>
                 { modalOpen  && (
         <div  >
